@@ -11,9 +11,13 @@ Sudah kenal dengan Trend Store? Aplikasi fashion online yang bikin belanja makin
 🎯 Download sekarang dan jadilah yang pertama tahu promo-promo eksklusif di Trend Store! 💼✨
 
 Developer :
+
 1.Siti Farianti (23050974180)
+
 2.Yayang Maulani(23050974183)
+
 3.Amelia Nadhiva(23050974171)
+
 4.Fitri Romadhona(23050974179)
 
 Link Download Aplikasi:
