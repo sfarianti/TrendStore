@@ -1,13 +1,21 @@
 🌟Project Aplikasi Trendstore🌟
 
 "✨ Tampil Stylish, Belanja Praktis! ✨
+
 Sudah kenal dengan Trend Store? Aplikasi fashion online yang bikin belanja makin mudah dan menyenangkan! 🎉
+
 💡 Kenapa harus Trend Store?
+
 ✅ Pilihan fashion lengkap: dari merek ternama hingga berbagai kategori & ukuran.
+
 ✅ Info produk super detail: ulasan, ukuran, hingga foto kece!
+
 ✅ Pembayaran gampang banget: mulai dari e-wallet sampai kartu kredit.
+
 ✅ Navigasi simple, tinggal klik langsung ketemu!
+
 💳 Belanja mudah, transaksi aman, dan pastinya bikin kamu makin fashionable tanpa ribet! 💃
+
 🎯 Download sekarang dan jadilah yang pertama tahu promo-promo eksklusif di Trend Store! 💼✨
 
 Developer :
