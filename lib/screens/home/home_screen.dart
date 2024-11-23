@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:shop_app/dashboardadmin.dart';
 import '../../constants.dart';
 
 import '../../models/product.dart';
@@ -35,7 +36,7 @@ class HomeScreen extends StatelessWidget {
             ),
             onPressed: () {},
           ),
-          const SizedBox(width: kDefaultPaddin / 2)
+          const SizedBox(width: kDefaultPaddin / 2),
         ],
       ),
       body: Column(
@@ -78,6 +79,16 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => const SellerPage()),
+          );
+        },
+        backgroundColor: Colors.blue, // Ubah warna sesuai keinginan
+        child: const Icon(Icons.add, size: 30), // Menggunakan ikon '+' standar
       ),
     );
   }

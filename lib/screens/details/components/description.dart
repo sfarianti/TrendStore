@@ -1,19 +1,19 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; // Mengimpor paket Material untuk membuat antarmuka pengguna.
+import '../../../constants.dart'; // Mengimpor file constants untuk akses ke nilai konstan `kDefaultPaddin`.
+import '../../../models/product.dart'; // Mengimpor model `Product` untuk mengakses data produk.
 
-import '../../../constants.dart';
-import '../../../models/product.dart';
+class Description extends StatelessWidget { // Membuat widget stateless bernama `Description`.
+  const Description({super.key, required this.product}); // Konstruktor dengan parameter `product` yang wajib.
 
-class Description extends StatelessWidget {
-  const Description({super.key, required this.product});
+  final Product product; // Mendeklarasikan variabel `product` bertipe `Product`.
 
-  final Product product;
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin),
-      child: Text(
-        product.description,
-        style: const TextStyle(height: 1.5),
+    return Padding( // Memberikan padding di sekitar teks.
+      padding: const EdgeInsets.symmetric(vertical: kDefaultPaddin), // Padding vertikal dengan nilai konstan.
+      child: Text( // Menampilkan teks deskripsi produk.
+        product.description, // Mengambil deskripsi dari properti `description` di `product`.
+        style: const TextStyle(height: 1.5), // Mengatur tinggi baris teks untuk keterbacaan.
       ),
     );
   }

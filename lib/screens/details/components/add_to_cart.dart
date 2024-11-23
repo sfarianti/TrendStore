@@ -8,6 +8,7 @@ class AddToCart extends StatelessWidget {
   const AddToCart({super.key, required this.product});
 
   final Product product;
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -34,15 +35,17 @@ class AddToCart extends StatelessWidget {
           ),
           Expanded(
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+              },
               style: ElevatedButton.styleFrom(
                 minimumSize: const Size(double.infinity, 48),
                 shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(18)),
+                  borderRadius: BorderRadius.circular(18),
+                ),
                 backgroundColor: product.color,
               ),
               child: Text(
-                "Buy  Now".toUpperCase(),
+                "Buy Now".toUpperCase(), // Hapus spasi sebelum "Now"
                 style: const TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
