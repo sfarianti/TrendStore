@@ -34,4 +34,7 @@ https://drive.google.com/drive/folders/1RvjjjR72uHroipiJQLKaDHVizLe9e0LD
 Link Prodi:
 https://pendidikan-ti.ft.unesa.ac.id
 
+References:
+https://github.com/abuanwar072/E-commerce-App-UI-Flutter
+
 #TrendStore #FashionOnline #OOTD #BelanjaMudah #StyleGoals"
